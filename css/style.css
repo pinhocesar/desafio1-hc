@@ -1,0 +1,329 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans";
+}
+
+html, body{
+	height: 100%;
+}
+
+@font-face{
+	src: url(../fonts/OpenSans-Light.ttf);
+	font-family: "Open Sans";
+}
+
+.clear{
+	clear: both;
+}
+
+.center{
+	max-width: 1280px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.header{
+	width: 100%;
+	padding: 0 2%;
+	height: 60px;
+	background-color: #527953;
+}
+
+.header img{
+	margin: 8px;
+	width: 200px;
+}
+
+.container-banner{
+	width: 100%;
+	padding: 0 2%;
+	height: 557px;
+	background-image: url(../images/bggreen.png);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.container-banner > .center{
+	height: 100%;
+}
+
+.form{
+	padding: 15px;
+	width: 400px;
+	height: calc(100% + 30px);
+	float: right;
+	position: relative;
+	top: -15px;
+	border: 8px solid rgba(120,120,120,0.7);
+	border-radius: 5px;
+	background-clip: padding-box;
+	background-color: #ffffff;
+}
+
+.form h2{
+	font-weight: normal;
+	color: #808080;
+	font-size: 21px;
+	text-align: justify;
+}
+
+.input-container{
+	margin-top: 20px;
+}
+
+.input-container span{
+	display: inline-block;
+	width: 100%;
+	color: #808080;
+	font-size: 17px;
+}
+
+.form p{
+	margin: 20px 0;
+	display: inline-block;
+	width: 100%;
+	color: #cccccc;
+	font-size: 17px;
+}
+
+.input-container input{
+	padding: 8px;
+	margin-top: 8px;
+	width: 350px;
+	height: 55px;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	font-size: 17px;
+	color: #999999;
+}
+
+.form .input-submit-container{
+	text-align: center;
+}
+
+.form input[type=submit]{
+	display: inline-block;
+	width: 280px;
+	height: 55px;
+	background-color: #527953;
+	color: #ffffff;
+	font-size: 25px;
+	font-weight: bolder;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 5px solid #637563;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.form input[type=submit]:hover{
+	background-color: #2f5730;
+}
+
+.container-img img{
+	width: 80px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.countdown_dashboard{
+	margin-top: 25px;
+	padding: 20px;
+	float: left;
+	width: 570px;
+	height: auto;
+	background-color: rgba(33, 67, 39, 0.9);
+	border-radius: 5px;
+	text-align: center;
+}
+
+.countdown_dashboard h1{
+	margin-bottom: 5px;
+	color: #aaaaaa;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.countdown_dashboard .dashp{
+	border: 1px solid #707070; 
+	background-color: #cccccc;
+	margin: 5px 5px; 
+	width: 100px; 
+	height: 80px; 
+	padding: 10px;  
+	border-radius: 10px;
+	display: inline-block;
+}
+
+.countdown_dashboard p{
+	font-size: 30px; 
+	font-weight: bolder; 
+	color: #303030; 
+	margin: 0px; 
+	text-align: center;
+}
+
+.countdown_dashboard .dashtitle{
+	font-size: 15px; 
+	color:#303030;
+	clear: both; 
+	display: block;
+}
+
+.container-2{
+	width: 100%;
+	padding: 35px 2%;
+	background-color: #dddddd;
+	text-align: center;
+}
+
+.container-2 h1{
+	margin-bottom: 40px;
+	font-weight: bolder;
+}
+
+.container-2 p{
+	margin: 15px 0;
+	width: 100%;
+	max-width: 768px;
+	display: inline-block;
+	text-align: center;
+	font-size: 16px;
+}
+
+.arrow{
+	position: relative;
+	top: 60px;
+	left: 50%;
+	margin-left: -20px;
+	width: 40px;
+	height: 40px;
+	background-image: url(../images/arrow.png);
+	background-size: 100%;
+}
+
+.section-1{
+	width: 100%;
+	padding: 50px 0;
+}
+
+.section-1 h2{
+	text-align: center;
+	color: #1e4e28;
+	font-weight: bold;
+}
+
+.container-section{
+	margin-top: 40px;
+	text-align: center;
+}
+
+.container-single{
+	padding: 30px;
+	width: 33.333%;
+	float: left;
+}
+
+.container-single h2{
+	margin-top: 10px;
+}
+
+.container-single p{
+	padding: 10px;
+	display: inline-block;
+	text-align: justify;
+	color: #1e4e28;
+}
+
+.container-single img{
+	width: 150px;
+	margin-bottom: 15px;
+}
+
+.footer{
+	width: 100%;
+	padding: 10px 0;
+	border-top: 5px solid #637563;
+	text-align: center;
+	background-color: #527953;
+}
+
+.footer p{
+	margin: 2px 0; 
+	font-size: 12px;
+	color: #ffffff;
+}
+
+@media screen and (max-width: 1024px){
+	.header{
+		width: 100%;
+	}
+
+	.container-banner{
+		padding: 0 2%;
+		width: 100%;
+		height: auto;
+		min-height: 557px;
+	}
+
+	.countdown_dashboard{
+		padding: 30px;
+		width: 45%;
+		max-width: 400px;
+		height: auto;
+		min-height: 300px;
+		float: left;
+	}
+
+	.form{
+		padding: 15px;
+		width: 55%;
+		max-width: 400px;
+		height: 100%;
+		float: right;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.header{
+		text-align: center;
+	}
+
+	.container-banner{
+		padding: 30px;
+		text-align: center;
+	}
+
+	.countdown_dashboard{
+		margin-top: 0;
+		width: 100%;
+		max-width: 400px;
+		float: none;
+		display: inline-block;
+	}
+
+	.container-2{
+		padding-left: 4%;
+		padding-right: 4%;
+	}
+
+	.form{
+		margin-top: 30px;
+		width: 100%;
+		float: none;
+		top: 0;
+		display: inline-block;
+	}
+
+	.container-single{
+		padding: 30px;
+		width: 100%;
+		max-width: 600px;
+		float: none;
+		display: inline-block;
+	}
+}
